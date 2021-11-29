@@ -13,7 +13,7 @@ function App() {
   const [notes, setNotes] = useState<Note[]>([{
     id: (new Date()).toString(),
     title : "React TypeScript",
-    text: "This is a React TypeScript Basic App Using React Bootstrap and React TypeScript",
+    text: "This is a React Notes App, Using React TypeScript and React Bootstrap",
     color: '#dfdfdf',
     date : (new Date()).toString()
   }])
