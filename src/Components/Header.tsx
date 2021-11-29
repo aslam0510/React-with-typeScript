@@ -9,7 +9,7 @@ const Header: React.FunctionComponent<IAppProps> = (props) => {
      <Navbar fixed="top" bg="dark" variant="dark">
        <Container>
           <NavbarBrand>
-            React TypeScript Bootstrap Tutorial
+            React TypeScript 
           </NavbarBrand>
        </Container>
      </Navbar>
