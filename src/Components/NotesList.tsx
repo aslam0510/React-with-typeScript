@@ -22,8 +22,8 @@ const NotesList: React.FC<INotesListsProps> = ({ notes, setNotes }) => {
   };
   return (
     <>
-      <h2 className="mt-3 mb-2">Notes</h2>
-      <div>{renderNotes()}</div>
+      <h2 className="mt-3 mb-2 text-danger">Notes</h2>
+      <div>{renderNotes().length ? renderNotes() : <h3>No Notes Available</h3>}</div>
     </>
   );
 };

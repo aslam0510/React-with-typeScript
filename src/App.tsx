@@ -12,8 +12,8 @@ import CreateNotes from './Components/CreateNotes';
 function App() {
   const [notes, setNotes] = useState<Note[]>([{
     id: (new Date()).toString(),
-    title : "meetings",
-    text: "meeting with bde tea",
+    title : "React TypeScript",
+    text: "This is a React TypeScript Basic App Using React Bootstrap and React TypeScript",
     color: '#dfdfdf',
     date : (new Date()).toString()
   }])
