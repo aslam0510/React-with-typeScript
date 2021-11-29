@@ -3,6 +3,8 @@ import { useState } from 'react';
 import './App.css';
 import { Note } from './Models/note.model';
 import Header from './Components/Header';
+import { Col, Container, Row } from 'react-bootstrap';
+import NotesList from './Components/NotesList';
 
 
 
@@ -17,6 +19,13 @@ function App() {
   return (
     <>
     <Header />
+    <Container className="mt-5">
+      <Row>
+        <Col>
+          <NotesList notes={notes}/>
+        </Col>
+      </Row>
+    </Container>
     </>
   );
 }
